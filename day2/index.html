@@ -1,40 +1,81 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
 
 <head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Hi, my name is Brayan</title>
   <link rel="icon" type="image/x-icon" href="./images/logo.jpeg">
-  <link rel="stylesheet" type="text/css" href="estilo.css">
-
+  <style>
+    /* Estilos generales */
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+    nav ul {
+      list-style-type: none;
+      padding: 0;
+      margin: 0;
+      background-color: #f1f1f1;
+      overflow: hidden;
+    }
+    nav ul li {
+      float: left;
+    }
+    nav ul li a {
+      display: block;
+      padding: 10px 20px;
+      text-decoration: none;
+      color: #333;
+    }
+    nav ul li a:hover {
+      background-color: #ddd;
+    }
+    .secciones {
+      display: none;
+      padding: 20px;
+    }
+    /* Estilos específicos para secciones */
+    #en-un-ano:target {
+      display: block;
+    }
+    #en-tres-anos:target {
+      display: block;
+    }
+    #en-cinco-anos:target {
+      display: block;
+    }
+  </style>
 </head>
 
 <body>
   <h1>Mi proyecto de vida</h1>
   <nav>
     <ul>
-      <li><a href="">En 1 año</a></li>
-      <li><a href="">En 3 años</a></li>
-      <li><a href="">En 5 años</a></li>
-      <li><a href="">En 10 años</a></li>
+      <li><a href="#en-un-ano">En 1 año</a></li>
+      <li><a href="#en-tres-anos">En 3 años</a></li>
+      <li><a href="#en-cinco-anos">En 5 años</a></li>
     </ul>
   </nav>
   <div class="contenido">
-    <div class="articulos">
-      <div class="secciones">
-        <div>
-          <h2>En 365 dias</h2>
-          <p>Mi meta a un año se basan en 3 campos inicialmente: laboral, academico y economico. Con esto poder estar
-            ejerciciendo developer junior, estar a miras de una certificacion en un idioma que no es el nativo y darme
-            gustos materiales por el equilibrio economico.</p>
-        </div>
-        <div><img src="./images/casa.jpeg"></div>
-      </div>
+    <div class="secciones" id="en-un-ano">
+      <h2>En 365 días</h2>
+      <p>Mi meta a un año se basa en 3 campos inicialmente: laboral, académico y económico. Con esto poder estar ejerciendo developer junior, estar a miras de una certificación en un idioma que no es el nativo y darme gustos materiales por el equilibrio económico.</p>
+      <img src="./images/casa.jpeg" alt="Casa">
     </div>
-    <div class="menu-secundario">
-      <a href=" ">Mas sobre mi</a>
-      <a href=" ">Mas sobre mi</a>
-      <a href=" ">Mas sobre mi</a>
-      <a href=" ">Mas sobre mi</a>
+    <div class="secciones" id="en-tres-anos">
+      <h2>En 3 años</h2>
+      <p>Mi meta a tres años, será cumplir el rol de arquitecto dentro de una empresa que me permita construir desde las diferentes herramientas las mejores soluciones y acordes tanto del software interno como el externo en caso de ser una casa de desarrollo.</p>
+      <img src="./images/descarga.png" alt="Desarrollo">
+    </div>
+    <div class="secciones" id="en-cinco-anos">
+      <h2>En 5 años</h2>
+      <p>Mi meta a cinco años, se centrará en seguir creciendo laboralmente y desligarme del empleo para formalizar mi empresa la cual se enfocará en los empleados, el campo en el cual quiero incursionar es en el marketing digital, soluciones informáticas e investigación en nuevas o mejoras tecnológicas para uso empresarial.</p>
+      <img src="./images/labo.jpeg" alt="Laboratorio">
     </div>
   </div>
 </body>
+
 </html>
