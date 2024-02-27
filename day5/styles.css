@@ -5,6 +5,13 @@
     height: 100vh;
     background-color: #000;
 }
+body {
+    background-color: black;
+    top: 0px;
+    left: 0px;
+    width: 1918px;
+    height: 4149px;
+}
 #logo {
     position: absolute;
     top:35%;
@@ -44,6 +51,7 @@
     z-index: 1;
 }
 .oval-botton {
+    position: absolute;
     border:none;
     border-radius: 20px;
     background-color: white;
@@ -57,6 +65,7 @@
     transform: translate( -50% , -50% ) scale(2.5);
 }
 .logueo {
+    position: absolute;
     border:none;
     border-radius: 20px;
     background-color: white;
@@ -70,6 +79,7 @@
     transform: translate( -50% , -50% ) scale(1.3);
 }
 .rect-botton {
+    position: absolute;
     border:none;
     border-radius: 20px;
     background-color: white;
@@ -88,26 +98,218 @@
     transform: translate(-50%, -50%) scale(0.9);
     z-index:1;
 }
-.black-background {
-    position: absolute;
-    top: 100vh;
-    left: 0;
-    width: 100%;
-    height: 100vh;
-    background-color: #000;
-    z-index: 0;
+.margen{
+    position:absolute;
+    background-color: #00A8E1;
+    top: 1480px;
+    left: 64px;
+    width: 1655px;
+    height: 724px;
+    border-radius: 108px;
+  }
+  .like{
+    position:absolute;
+    color:#ffffff;
+    text-align: left;
+    font-size: 60px;
+    font-family: 'Amazon Ember bold';
+    font-weight: 900;
+    width: 1664px;
+    height: 60px; 
+    top: 1550px;
+    left: 135px; 
+  }
+  .space{
+    position:absolute;
+    top: 1700px;
+    left: 477px;
+    width: 181px;
+    height: 309px;
+    background: transparent url('./images/Rectangle\ 4@2x.png') 0% 0% no-repeat padding-box;
+    border: 1px solid #707070;
+    opacity: 1;
+  }
+  .red{
+    position:absolute;
+    top: 1700px;
+    left: 670px;
+    width: 181px;
+    height: 309px;
+    background: transparent url('./images/Red.png') 0% 0% no-repeat padding-box;
+    border: 1px solid #707070;
+    opacity: 1;
+  }
+  .soul{
+    position:absolute;
+    top: 1700px;
+    left: 863px;
+    width: 180px;
+    height: 309px;
+    background: transparent url('./images/soup.png') 0% 0% no-repeat padding-box;
+    border: 1px solid #707070;
+    opacity: 1;
+  }
+  .tentacles{
+    position:absolute;
+    top: 1700px;
+    left: 1055px;
+    width: 181px;
+    height: 309px;
+    background: transparent url('./images/tentacles.png') 0% 0% no-repeat padding-box;
+    border: 1px solid #707070;
+    opacity: 1;
+  }
+  .sentinell{
+    position:absolute;
+    top: 1700px;
+    left: 1248px;
+    width: 181px;
+    height: 309px;
+    background: transparent url('./images/sentinell.png') 0% 0% no-repeat padding-box;
+    border: 1px solid #707070;
+    opacity: 1;
+  }
+  .fini{
+    position:absolute;
+    color: #ffffff;
+    top: 2000px;
+    left: 207px;
+    width: 1550px;
+    height: 110px;
+    font-size: 50px;
+    font-family: 'Amazon Ember light';
+    text-align: center;  
 }
-#movies {
-    position: absolute;
-    top:190%;
-    left:50%;
-    transform: translate(-50%, -50%) scale(0.9);
-    z-index:1;
+.nega {
+        position:absolute;
+        color:#ffffff;
+        text-align: left;
+        font-size: 60px;
+        font-family: 'Amazon Ember bold';
+        font-weight: 900;
+        width: 1664px;
+        height: 60px; 
+        top: 2250px;
+        left: 630px; 
 }
-#delet {
-    position: absolute;
-    top:264%;
-    left:50%;
-    transform: translate(-50%, -50%) scale(0.9);
-    z-index:1;
+.margenn{
+    position:absolute;
+    background-color: #00A8E1;
+    top: 2230px;
+    left: 64px;
+    width: 1650px;
+    height: 550px;
+    border-radius: 108px;
+  }
+.cancel{
+    position:absolute;
+    top: 2400px;
+    left: 900px;
+    width: 181px;
+    height: 309px;
+    background: transparent url('./images/Icon\ metro-cancel.svg') 0% 0% no-repeat padding-box;
+    opacity: 1;
+  }
+  .termi{
+    position:absolute;
+    color: #ffffff;
+    top: 2570px;
+    left: 207px;
+    width: 1550px;
+    height: 110px;
+    font-size: 40px;
+    font-family: 'Amazon Ember light';
+    text-align: center;  
+}
+.tercer{
+    position:absolute;
+    color:#ffffff;
+    text-align: left;
+    font-size: 120px;
+    font-family: 'Amazon Ember light';
+    font-weight: 900;
+    width: 1664px;
+    height: 60px; 
+    top: 2800px;
+    left: 540px; 
+  }
+  .ulti{
+    position:absolute;
+    color: #ffffff;
+    top: 3050px;
+    left: 207px;
+    width: 1550px;
+    height: 110px;
+    font-size: 50px;
+    font-family: 'Amazon Ember light';
+    text-align: center;  
+}
+.maca {
+        position:absolute;
+        top: 3250px;
+        left: 780px;
+        width: 400px;
+        height: 309px;
+        background: transparent url('./images/Image\ 1@2x.png') 0% 0% no-repeat padding-box;
+        opacity: 1;
+}
+.desk {
+        position:absolute;
+        top: 3310px;
+        left: 1280px;
+        width: 200px;
+        height: 200px;
+        background: transparent url('./images/Image\ 3@2x.png') 0% 0% no-repeat padding-box;
+        opacity: 1;
+}
+.cell {
+        position:absolute;
+        top: 3310px;
+        left: 500px;
+        width: 200px;
+        height: 200px;
+        background: transparent url('./images/phone.png') 0% 0% no-repeat padding-box;
+        opacity: 1;
+}
+.senal {
+        position:absolute;
+        top: 3380px;
+        left: 450px;
+        width: 30px;
+        height: 30px;
+        transform: matrix(0.03, 1, -1, 0, 0);
+        opacity: 1;
+}
+.senalci {
+        position:absolute;
+        top: 3390px;
+        left: 1505px;
+        width: 30px;
+        height: 30px;
+        transform: matrix(0, -1, 1, 0, 0, 0)rotate(270deg);
+        opacity: 1;
+}
+.don {
+    position:absolute;
+    top: 3570px;
+    left: 870px;
+    width: 80px;
+    height: 80px;
+    opacity: 1;
+}
+.empre {
+    position:absolute;
+    top: 3570px;
+    left: 850px;
+    width: 380px;
+    height: 250px;
+    opacity: 1;
+}
+.acabe {
+    position:absolute;
+    top: 3600px;
+    left: 700px;
+    width: 600px;
+    height: 250px;
+    opacity: 1;
 }
