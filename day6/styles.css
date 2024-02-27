@@ -1,0 +1,59 @@
+.right {
+    position: absolute;
+    height: 100vh;
+    right:0px;
+    width: 10%;
+    background: black;
+}   
+.loguin{
+    position: absolute;
+    top: 40px;
+    left: 40px;
+    width: 200px;
+}
+body {
+    width: 1920px;
+    height: 1080px;
+}
+.buy {
+    position: absolute;
+    top: 40px;
+    left: 1000px;
+    width: 250px;
+}
+.much {
+    position: absolute;
+    top: 40px;
+    left: 1250px;
+    width: 150px;
+}
+.search {
+    position:absolute;
+    top: 50px;
+    left: 1410px;
+    width: 30px;
+}
+.car {
+    position: absolute;
+    top: 50px;
+    left: 1550px;
+    width: 40px;
+}
+.target {
+    position: absolute;
+    top: 200px;
+    left: 290px;
+    width: 1000px;
+}
+.texti {
+    position: absolute;
+    top: 800px;
+    left: 90px;
+    width:800px;
+}
+.cobro {
+    position: absolute;
+    top: 870px;
+    left: 90px;
+    width:200px;
+}
