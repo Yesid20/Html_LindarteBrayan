@@ -1,3 +1,17 @@
+@font-face {
+    font-family: 'opensans';
+    src: url(../fuentes/OpenSans_Condensed-SemiBold.ttf );
+    font-weight:  bold;
+    font-style: bold;
+}
+
+@font-face {
+    font-family: 'opensans';
+    src: url(../fuentes/OpenSans-Regular.ttf);
+    font-weight:  normal;
+    font-style: normal;
+}
+
 .right {
     position: absolute;
     height: 100vh;
@@ -98,9 +112,10 @@ body {
 }
 .dueno {
     position: absolute;
-    top: 830px;
-    left: 1429px;
-    width: 110px;
+    top: 810px;
+    left: 1438px;
+    font-size: 25px;
+    font-family: bold;
 }
 .target2 {
         position: absolute;
@@ -121,4 +136,60 @@ body {
     left: 530px;
     font-size: 50px;
     color: black;
+    font-family: 'opensas';
+    font-style: 'bold';
+}
+.parra {
+    position: absolute;
+    top: 570px;
+    left: 750px;
+    font-size: 30px;
+    color: black;
+}
+.parraf {
+    position: absolute;
+    top: 640px;
+    left: 810px;
+    font-size: 30px;
+    color: black;
+}
+#money {
+    position: absolute;
+    top: 740px;
+    right: 790px;
+    font-size: 20px;
+    font-family: 'OpenSans, regular';
+    text-decoration: none;
+    color: black;
+}
+input[type="number"]{
+    padding: 20px;
+    border-radius: 15px;
+    font-family: bold;
+    top: 410px; 
+    right: 60px;
+    font-size: 20px;
+    color: grey;
+    text-indent: 100px;
+}
+.valori {
+    position: absolute;
+    top: 420px;
+    right: 58px;
+    color: grey;
+    font-size: 20px;
+}
+.valorin {
+    position: absolute;
+    top: 500px;
+    right: 60px;
+    font-size: 20px;
+    color: white;
+}
+.valor {
+    position: absolute;
+    top: 582px;
+    right:60px;
+    font-size: 20px;
+    color: grey;
 }
