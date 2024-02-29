@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Metro_Linea</title>
+    <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+    <div class="right"></div>
+    <div>
+        <img src="./images/1200px-Metrolínea_logo.svg@2x.png" alt="loguin" class="loguin">
+    </div>
+    <div>
+        <img src="./images/Comprar Tarjeta.svg" alt="text" class="buy">
+    </div>
+    <div>
+        <nav>
+            <a href="./saldito.html" target="_switch" class="much">Ver saldo</a>
+        </nav>
+    </div>
+    <div>
+        <img src="./images/Icon ionic-ios-search.svg" alt="search" class="search">
+    </div>
+    <div>
+        <img src="./images/Icon feather-shopping-cart.svg" alt="car" class="car">
+    </div>
+    <div>
+        <img src="./images/Metrolinea@2x.png" alt="target" class="target">
+    </div>
+    <div>
+        <img src="./images/Tarjeta Metrolínea (Saldo $3000 COP).svg" alt="texti" class="texti">
+    </div>
+    <div>
+        <img src="./images/$3000 COP.svg" alt="cobro" class="cobro">
+    </div>
+    <div>
+        <img src="./images/Icon ionic-ios-arrow-up.svg" alt="flech" class="flech">
+    </div>
+    <div>
+        <img src="./images/Cantidad.svg" alt="word" class="word">
+    </div>
+    <div>
+        <img src="./images/Menu.svg" alt="numbers" class="numbers">
+    </div>
+    <div>
+        <img src="./images/Icon ionic-ios-arrow-down.svg" alt="down" class="down">
+    </div>
+    <div>
+        <img src="./images/Rectangle 2.svg" alt="conte" class="conte">
+    </div>
+    <div>
+        <img src="./images/1200px-Metrolínea_logo.svg@2x.png" alt="abajo" class="abajo">
+    </div>
+    <div>
+        <img src="./images/Comprar.svg" alt="dueno" class="dueno">
+    </div>
+</body>
+</html>

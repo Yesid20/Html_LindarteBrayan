@@ -1,0 +1,124 @@
+.right {
+    position: absolute;
+    height: 100vh;
+    right:0px;
+    width: 10%;
+    background: black;
+}   
+.loguin{
+    position: absolute;
+    top: 40px;
+    left: 40px;
+    width: 200px;
+}
+body {
+    width: 1920px;
+    height: 1080px;
+}
+.buy {
+    position: absolute;
+    top: 40px;
+    left: 1000px;
+    width: 250px;
+}
+.much {
+    position: absolute;
+    top: 45px;
+    right: 440px;
+    font-size: 34px;
+    font-family: 'OpenSans, regular';
+    text-decoration: none;
+    color: black;
+}
+.search {
+    position:absolute;
+    top: 50px;
+    left: 1420px;
+    width: 30px;
+}
+.car {
+    position: absolute;
+    top: 50px;
+    left: 1550px;
+    width: 40px;
+}
+.target {
+    position: absolute;
+    top: 200px;
+    left: 290px;
+    width: 1000px;
+}
+.texti {
+    position: absolute;
+    top: 800px;
+    left: 90px;
+    width:800px;
+}
+.cobro {
+    position: absolute;
+    top: 870px;
+    left: 90px;
+    width:200px;
+}
+.flech {
+    position:absolute;
+    top: 40px;
+    left: 1735px;
+    width: 30px;
+}
+.word {
+    position: absolute;
+    top: 230px;
+    left: 1700px;
+    width: 100px;
+}
+.numbers {
+    position: absolute;
+    top: 370px;
+    left: 1730px;
+    width: 30px;
+}
+.down {
+    position:absolute;
+    top: 895px;
+    left: 1735px;
+    width: 30px;
+}
+.conte {
+    position: absolute;
+    top:760px;
+    left:1400px;
+    width: 160px;
+}
+.abajo {
+    position: absolute;
+    top:795px;
+    left: 1420px;
+    width: 125px;
+}
+.dueno {
+    position: absolute;
+    top: 830px;
+    left: 1429px;
+    width: 110px;
+}
+.target2 {
+        position: absolute;
+        top: 180px;
+        left: 560px;
+        width: 650px;
+}
+.pagi {
+        position: absolute;
+        top: 230px;
+        left: 1720px;
+        font-size: 25px;
+        color:white
+}
+.titu {
+    position: absolute;
+    top: 490px;
+    left: 530px;
+    font-size: 50px;
+    color: black;
+}

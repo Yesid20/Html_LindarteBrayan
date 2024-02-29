@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Maquetación por secciones</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <h1>Encabezado de la página</h1>
+    <nav>
+      <ul>
+        <li><a href="#section1">Sección 1</a></li>
+        <li><a href="#section2">Sección 2</a></li>
+        <li><a href="#section3">Sección 3</a></li>
+      </ul>
+    </nav>
+  </header>
+  
+  <section id="section1">
+    <h2>Sección 1</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut aliquet urna a mi ultrices, a luctus velit tincidunt.</p>
+  </section>
+  
+  <section id="section2">
+    <h2>Sección 2</h2>
+    <p>Nullam viverra leo in dolor eleifend, vel hendrerit odio fermentum. Phasellus vestibulum, urna nec facilisis convallis, justo turpis malesuada libero.</p>
+  </section>
+  
+  <section id="section3">
+    <h2>Sección 3</h2>
+    <p>Proin tincidunt libero eu massa feugiat, nec facilisis orci ultrices. Fusce consectetur turpis in ante tristique, a mattis odio malesuada.</p>
+  </section>
+  
+  <footer>
+    <p>Pie de página - Derechos reservados</p>
+  </footer>
+</body>
+</html>

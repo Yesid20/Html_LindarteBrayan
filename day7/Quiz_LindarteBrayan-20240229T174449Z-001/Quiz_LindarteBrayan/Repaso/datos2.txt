@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Amazon Prime</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+    <img src="./images/Icon awesome-search.svg" alt="Lupa" class="lupa">
+    <button class="logueo">Login</button>
+    <div id="principal">
+        <img src="./images/LogoPrimeE2@2x.png" alt="Logo" id="logo">
+        <p class="frase">Your favorite content, on one place only.</p>
+        <p class="idea">Now you can enjoy everything from Amazon Prime Video and Twitch Prime<br> with you Amazon Prime subscription on one place that brings all the entertainment you<br>love.</p>
+        <button class="oval-botton">Sign-Up on Amazon</button>
+        <button class="rect-botton">Live Content and the palm of your hand</button>
+        <img src="./images/Group 2.svg" alt="info" id="info">
+        <div class="margen"></div>
+        <div>
+            <h1 class="like">Don’t like to watch Live? No problem , we got you covered</h1>
+        </div>
+        <div>
+            <img src="./images/Rectangle 4@2x.png" alt="space" class="space">
+        </div>
+        <div>
+            <img src="./images/Red.png" alt="red" class="red">
+        </div>
+        <div>
+            <img src="./images/soup.png" alt="soul" class="soul">
+        </div>
+        <div>
+            <img src="./images/tentacles.png" alt="tentacles" class="tentacles">
+        </div>
+        <div>
+            <img src="./images/sentinell.png" alt="sentinell" class="sentinell">
+        </div>
+        <div>
+            <p class="fini">You’ll find a variety of movies, not only for adults <br> but also for your family, with our without internet. 24/7. On demand.</p>
+        </div>
+        <div class="margenn"></div>
+        <div>
+            <h1 class="nega">Cancel any time, anywhere</h1>
+        </div>
+        <div>
+            <p class="termi">If you don´t like our services, you can cancel anytime you want, no contracts, <br> no fees.</p>
+        </div>
+        <div class="cancel"></div>
+        <div>
+            <h2 class="tercer">Compatible devices</h2>
+        </div>
+        <div>
+            <p class="ulti">There's a range of devices where you can enjoy all of the content available in <br> Prime Entertainment</p>
+        </div>
+        <div>
+            <img src="./images/Flecha.svg" alt="senal" class="senal">
+        </div>
+        <div>
+            <img src="./images/Image 1@2x.png" alt="mac" class="maca">
+        </div>
+        <div>
+            <img src="./images/Image 3@2x.png" alt="desk" class="desk">
+        </div>
+        <div>
+            <img src="./images/phone.png" alt="cell" class="cell">
+        </div>
+        <div>
+            <img src="./images/Flecha.svg" alt="senalci" class="senalci">
+        </div>
+        <div>
+            <img src="./images/Powered by.svg" alt="don" class="don">
+        </div>
+        <div>
+            <img src="./images/Logo CACE Invertido UP@2x.png" alt="empre" class="empre">
+        </div>
+        <div>
+            <img src="./images/Group 5.svg" alt="acabe" class="acabe">
+        </div>
+    </div>
+    <div class="black-background"></div>
+</body>
+</html>
