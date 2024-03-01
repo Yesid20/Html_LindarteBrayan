@@ -362,7 +362,7 @@ body{
     position: absolute;
     border:none;
     border-radius: 1%;
-    background-color:rgb(247, 100, 47);;
+    background-color:rgb(247, 100, 47);
     color: white;
     padding: 10px 20px;
     font-size: 19px;
@@ -398,4 +398,170 @@ body{
     left: 1200px;
     font-size: 20px;
     color: white;
+}
+.line {
+    position: absolute;
+    top: 2960px;
+    left: 560px;
+    width: 55px;
+    height: 2px;
+    background-color: rgb(247, 100, 47);
+}
+.linea {
+    position: absolute;
+    top: 2960px;
+    left: 800px;
+    width: 55px;
+    height: 2px;
+    background-color: rgb(247, 100, 47);
+}
+.li {
+    position: absolute;
+    top: 2960px;
+    left: 1001px;
+    width: 55px;
+    height: 2px;
+    background-color: rgb(247, 100, 47);
+}
+.lin {
+    position: absolute;
+    top: 2960px;
+    left: 1210px;
+    width: 55px;
+    height: 2px;
+    background-color: rgb(247, 100, 47);
+}
+.casa {
+    position: absolute;
+    top: 2970px;
+    left: 560px;
+    font-size: 15px;
+    color: white;
+}
+.casa1 {
+    position: absolute;
+    top: 2992px;
+    left: 560px;
+    font-size: 15px;
+    color: white;
+}
+.casa2 {
+    position: absolute;
+    top: 3015px;
+    left: 560px;
+    font-size: 15px;
+    color: white;
+}
+.casa3 {
+    position: absolute;
+    top: 3035px;
+    left: 560px;
+    font-size: 15px;
+    color: white;
+}
+.casa4 {
+    position: absolute;
+    top: 3056px;
+    left: 560px;
+    font-size: 15px;
+    color: white;
+}
+.web {
+    position: absolute;
+    top: 2970px;
+    left: 800px;
+    font-size: 15px;
+    color: white;
+}
+.web1{
+        position: absolute;
+        top: 2991px;
+        left: 800px;
+        font-size: 15px;
+        color: white;
+}
+.web2 {
+    position: absolute;
+    top: 3013px;
+    left: 800px;
+    font-size: 15px;
+    color: white;
+}
+.web3 {
+    position: absolute;
+    top: 3035px;
+    left: 800px;
+    font-size: 15px;
+    color: white;
+}
+.web4 {
+    position: absolute;
+    top: 3055px;
+    left: 800px;
+    font-size: 15px;
+    color: white;
+}
+.empresa {
+    position: absolute;
+    top: 2970px;
+    left: 1000px;
+    font-size: 15px;
+    color: white;
+}
+.empresa1 {
+    position: absolute;
+    top: 2992px;
+    left: 1000px;
+    font-size: 15px;
+    color: white;
+}
+.empresa2 {
+    position: absolute;
+    top: 3013px;
+    left: 1000px;
+    font-size: 15px;
+    color: white;
+}
+.empresa3 {
+    position: absolute;
+    top: 3035px;
+    left: 1000px;
+    font-size: 15px;
+    color: white;
+}
+.figu {
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    background-color: rgb(247, 100, 47);
+    border-radius: 50%;
+    top: 2985px;
+    left: 1210px;
+}
+.figu1 {
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    background-color: rgb(247, 100, 47);
+    border-radius: 50%;
+    top: 2985px;
+    left: 1240px;
+}
+.figu2 {
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    background-color: rgb(247, 100, 47);
+    border-radius: 50%;
+    top: 2985px;
+    left: 1270px;
+}
+.figu3 {
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    background-color: rgb(247, 100, 47);
+    border-radius: 50%;
+    top: 2985px;
+    left: 1300px;
 }
