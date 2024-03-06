@@ -1,0 +1,18 @@
+body {
+    background-image: url("./images/pngtree-cartoon-landscape-with-colorful-spring-flowers-picture-image_3480571.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    display: flex;
+}
+.overlay-image {
+    position: absolute;
+    top: 70%;
+    left: 80%;
+    transform: translate(-50%, -50%);
+    width: 700px;
+    height: 700px;
+    background-image: url(images/images-removebg-preview.png);
+    background-size: cover;
+}
