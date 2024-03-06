@@ -1,0 +1,73 @@
+
+div {
+    width: 500px;
+    height: 280px;
+    padding: 20px;;
+    background: papayawhip;
+    box-sizing: border-box;
+    border: 10px solid black;
+    margin: 0;
+    position: relative; 
+    top: 100px; 
+    left: 450px; 
+}
+.hola {
+    width: 500px;
+    height: 560px;
+    padding: 20px;;
+    background: papayawhip;
+    box-sizing: border-box;
+    border: 10px solid black;
+    margin: 0;
+    position: relative; 
+    top: -460px; 
+    left: 950px; 
+}
+.big {
+    width: 1000px;
+    height: 560px;
+    padding: 20px;;
+    background: papayawhip;
+    box-sizing: border-box;
+    border: 10px solid black;
+    margin: 0;
+    position: relative; 
+    top: -460px; 
+    left: 450px; 
+}
+.tercer {
+    width: 500px;
+    height: 280px;
+    padding: 20px;;
+    background: papayawhip;
+    box-sizing: border-box;
+    border: 10px solid black;
+    margin: 0;
+    position: relative; 
+    top: -440px; 
+    left: 450px; 
+}
+.cuarto {
+    width: 500px;
+    height: 260px;
+    padding: 20px;;
+    background: papayawhip;
+    box-sizing: border-box;
+    border: 10px solid black;
+    margin: 0;
+    position: relative; 
+    top: -500px; 
+    left: 450px; 
+}
+.final {
+    width: 500px;
+    height: 480px;
+    padding: 20px;;
+    background: papayawhip;
+    box-sizing: border-box;
+    border: 10px solid black;
+    margin: 0;
+    position: relative; 
+    top: -980px; 
+    left: 950px;
+}

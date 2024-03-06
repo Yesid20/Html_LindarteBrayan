@@ -1,0 +1,35 @@
+body {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto; 
+    gap: 20px; 
+    padding: 20px; 
+    justify-content: center; 
+    align-items: center; 
+    height: 100vh; 
+}
+
+div {
+    width: 50%;
+    height: 280px;
+    padding: 20px;
+    background: papayawhip;
+    box-sizing: border-box;
+    border: 10px solid black;
+    margin: 0;
+}
+
+div:nth-child(2) {
+    grid-row: 2; 
+}
+
+.big {
+    grid-column: span 2; 
+    height: 560px;
+}
+
+.final {
+    grid-column: span 2; 
+    height: 480px;
+}
+
