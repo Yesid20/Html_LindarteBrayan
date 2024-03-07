@@ -27,7 +27,7 @@ body {
     height: 100%;
     background-image: url(images/sun.png);
     background-size: cover;
-    animation: dura 27s;
+    animation: dura 29s;
     z-index: 1;
 }
 @keyframes dura { 
@@ -110,10 +110,9 @@ body {
     position: absolute;
     width: 400px;
     height: 400px;
-    top: 10%;
-    left: -1600%;
+    left: 820px;
     animation: cloud 20s 1;
-    animation-delay: 16s; 
+    animation-delay: 9s; 
     z-index: 10;
 }
 @keyframes cloud {
@@ -124,10 +123,11 @@ body {
         transform: translateX(-255%);
     }
     70% {
-        transform: translateX(-255%);
+        transform: translateX(-305%);
     }
     100% {
-        transform: translateX(-255%);
+        transform: translateX(-400%);
+        opacity: 0;
     }
 }
   .lluvia{
@@ -135,9 +135,9 @@ body {
     width: 400px;
     height: 500px;
     top: 180px;
-    left: -350px;
+    left: -5vi;
     animation: appear 5s linear forwards, lluvia 3s linear infinite ;
-    animation-delay: 11s;
+    animation-delay: 14s;
     opacity: 0;
   }
   @keyframes appear {
@@ -164,10 +164,10 @@ body {
     width: 200px;
     height: auto;
     top: 650px;
-    left: -120px;
+    left: 100px;
     transform: translate(-50%); 
     animation: movimiento 5s forwards;
-    animation-delay: 14s;
+    animation-delay: 18s;
     opacity: 0;
 }
 @keyframes movimiento {
