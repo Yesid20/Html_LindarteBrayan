@@ -28,6 +28,7 @@ body {
     background-image: url(images/sun.png);
     background-size: cover;
     animation: dura 27s;
+    z-index: 1;
 }
 @keyframes dura { 
     0% {
@@ -108,25 +109,25 @@ body {
 .cloud{
     position: absolute;
     width: 400px;
-    height: auto;
-    top: 130px;
-    right: 100%;
-    transform: translate(-100%, -50%); 
-    animation: movimiento 20s forwards;
-    animation-delay: 8s; 
+    height: 400px;
+    top: 10%;
+    left: -1600%;
+    animation: cloud 20s 1;
+    animation-delay: 16s; 
+    z-index: 10;
 }
-@keyframes movimiento {
+@keyframes cloud {
     0% {
-      right: 100%; 
+        transform: translateX(-10%);
     }
-    40% {
-      right: 30%; 
+    50% {
+        transform: translateX(-255%);
     }
-    60% {
-      right: 30%; 
+    70% {
+        transform: translateX(-255%);
     }
     100% {
-      right: -400%; 
+        transform: translateX(-255%);
     }
 }
   .lluvia{
