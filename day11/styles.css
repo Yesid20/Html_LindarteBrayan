@@ -18,7 +18,6 @@ body {
 }
 .container {
      position: relative;
-     text-align: center;
 }
 .sun {
     position: relative;
@@ -28,7 +27,7 @@ body {
     height: 100%;
     background-image: url(images/sun.png);
     background-size: cover;
-    animation: dura 5s;
+    animation: dura 27s;
 }
 @keyframes dura { 
     0% {
@@ -106,5 +105,76 @@ body {
         transform: 0;
     }
 }
-
-
+.cloud{
+    position: absolute;
+    width: 400px;
+    height: auto;
+    top: 130px;
+    right: 100%;
+    transform: translate(-100%, -50%); 
+    animation: movimiento 20s forwards;
+    animation-delay: 8s; 
+}
+@keyframes movimiento {
+    0% {
+      right: 100%; 
+    }
+    40% {
+      right: 30%; 
+    }
+    60% {
+      right: 30%; 
+    }
+    100% {
+      right: -400%; 
+    }
+}
+  .lluvia{
+    position: absolute;
+    width: 400px;
+    height: 500px;
+    top: 180px;
+    left: -350px;
+    animation: appear 5s linear forwards, lluvia 3s linear infinite ;
+    animation-delay: 11s;
+    opacity: 0;
+  }
+  @keyframes appear {
+    0%{
+        opacity: 0;
+    }
+    50%{
+        opacity: 1;
+    }
+    100%{
+        opacity: 0;
+    }
+  }
+  @keyframes lluvia {
+    0%{
+        top: 180;
+    }
+    100%{
+        top: 300px;
+    }
+  }
+  .flor{
+    position: absolute;
+    width: 200px;
+    height: auto;
+    top: 650px;
+    left: -120px;
+    transform: translate(-50%); 
+    animation: movimiento 5s forwards;
+    animation-delay: 14s;
+    opacity: 0;
+}
+@keyframes movimiento {
+    0% {
+      top: 1500px; 
+    }
+    100% {
+      top: 650px; 
+      opacity: 1;
+    }
+  }
